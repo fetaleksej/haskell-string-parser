@@ -6,4 +6,4 @@ main:: IO()
 main = do 
 	putStrLn "Input digit"
 	str <- getLine
-	putStrLn $ "Hellow world " ++ digit str 
+	putStrLn $ "Digit: " ++ digit str 
